@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hide YouTube Comments & Notifications",
+    "version": "1.0",
+    "description": "Hides YouTube comments and notifications when the button is clicked.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

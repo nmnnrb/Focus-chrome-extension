@@ -1,0 +1,53 @@
+/* Styling the popup container */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Style for the button */
+  button {
+    background-color: #ff4500; /* YouTube's red color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #d73900;
+  }
+  
+  /* Optional: Add some shadow and spacing */
+  button {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for a title or description (if you want to add it later) */
+  h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Add padding for the overall layout */
+  body {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hideBtn{
+    border-radius: 28%;
+    border: #d73900 5px;
+  }

@@ -1,0 +1,40 @@
+Download the Extension Files:
+
+Ensure you have the extension files ready on your local machine. This typically includes files like manifest.json, popup.html, popup.js, content.js, and any associated CSS or image files.
+Open Chrome Browser:
+
+Launch the Google Chrome browser on your computer.
+Access Chrome Extensions Page:
+
+Type chrome://extensions/ in the address bar and press Enter. This will take you to the Extensions management page.
+Enable Developer Mode:
+
+Toggle the Developer mode switch located at the top right corner of the Extensions page. This will allow you to load unpacked extensions.
+Load the Extension:
+
+Click on the Load unpacked button.
+Navigate to the directory where your extension files are stored, select the folder, and click Open. The extension will now be added to your Chrome browser.
+Verify Installation:
+
+Once loaded, the extension should appear in the list of installed extensions on the Extensions page. You can check if it is active and view any relevant details.
+How to Unload (Remove) a Chrome Extension
+Open Chrome Browser:
+
+Launch the Google Chrome browser on your computer if it’s not already open.
+Access Chrome Extensions Page:
+
+Type chrome://extensions/ in the address bar and press Enter.
+Locate the Extension:
+
+Scroll through the list of installed extensions to find the one you wish to remove.
+Remove the Extension:
+
+Click the Remove button (typically shown as a trash can icon) next to the extension you want to uninstall.
+A confirmation dialog will appear asking if you want to remove the extension. Click Remove to confirm.
+Verify Removal:
+
+The extension should disappear from the list, indicating that it has been successfully removed from Chrome.
+Optional: Disable Instead of Removing
+If you wish to temporarily stop the extension without uninstalling it:
+
+On the Extensions page, toggle the switch next to the extension to the off position. This will disable the extension while keeping it installed.
